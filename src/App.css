@@ -1,0 +1,72 @@
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-size: 1.6rem;
+  color: var(--color1);
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+img{
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+:root{
+  --color1: rgb(66, 66, 66);
+}
+.font-1{
+  font-family: 'Amatic SC', cursive;
+}
+.font-2{
+  font-family: 'Pinyon Script', cursive;
+}
+
+/*--------------------Animación aparición-------------------------*/
+.fade-in {
+  animation-name: fadeIn;
+}
+.slow {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.titulo{
+  font-size: 5rem;
+  text-align: center;
+  margin: 6rem 0;
+}

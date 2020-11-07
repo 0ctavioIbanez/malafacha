@@ -1,0 +1,17 @@
+.card-container{
+  padding: 3rem 0;
+}
+.card{
+  background-color: rgb(233, 233, 233);
+  border-radius: .5rem;
+  box-shadow: 2px 2px 5px rgba(94, 94, 94, 0.76);
+  overflow: hidden;
+  width: 30rem;
+  min-height: 35rem;
+}
+.card-text{
+  padding: 1rem;
+}
+.card-text h3{
+  text-align: center;
+}
