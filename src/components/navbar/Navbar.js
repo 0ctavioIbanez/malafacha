@@ -9,9 +9,9 @@ const Navbar = () => (
         <img src={logo} alt="logo" />
       </div>
       <h4 className="font-2 titulo-barra">Mala facha</h4>
-      <nav>
-        <a href="">Menú</a>
-        <a href="">Contacto</a>
+      <nav className="navbar">
+        <a href="platillos">Menú</a>
+        <a href="contacto">Contacto</a>
       </nav>
     </div>
   </div>

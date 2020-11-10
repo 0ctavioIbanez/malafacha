@@ -4,7 +4,6 @@ import demo from '../../img/demo.jpeg';
 
 const Platillo = () => {
 
-
   return (
     <div className="card">
       <div>
